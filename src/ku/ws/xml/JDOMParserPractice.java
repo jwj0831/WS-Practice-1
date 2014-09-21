@@ -108,19 +108,19 @@ public class JDOMParserPractice {
 			System.out.println(channelNode.getChildText("lastBuildDate"));
 			System.out.println(channelNode.getChildText("total"));
 			
-			List<Element> elmts = channelNode.getChildren();
+			List<Element> elmts = channelNode.getChildren("item");
 			
 			System.out.println("");
 			
 			for(Element e : elmts) {
-				if( e.getName().equals("item") ) {
+//				if( e.getName().equals("item") ) {
 					System.out.println("News Item");
 					System.out.println(e.getChildText("title"));
 					System.out.println(e.getChildText("originallink"));
 					System.out.println(e.getChildText("link"));
 					System.out.println(e.getChildText("description"));
 					System.out.println(e.getChildText("pubDate"));
-				}
+//				}
 			}
 			
 			
