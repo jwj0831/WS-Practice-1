@@ -1,49 +1,37 @@
-{
-  "employees": [
+[
     {
-      "employee": {
         "id": 1,
         "firstname": "동건",
         "lastname": "장",
         "age": 43,
         "salary": 3500
-      }
     },
     {
-      "employee": {
         "id": 2,
         "firstname": "지원",
         "lastname": "히",
         "age": 36,
         "salary": 3000
-      }
     },
     {
-      "employee": {
         "id": 3,
         "firstname": "인성",
         "lastname": "조",
         "age": 32,
         "salary": 2800
-      }
     },
     {
-      "employee": {
         "id": 4,
         "firstname": "재석",
         "lastname": "유",
         "age": 40,
         "salary": 5200
-      }
     },
     {
-      "employee": {
         "id": 5,
         "firstname": "명수",
         "lastname": "박",
         "age": 43,
         "salary": 4800
-      }
     }
   ]
-}
