@@ -80,3 +80,5 @@ pom.xml.versionsBackup
 pom.xml.next
 release.properties
 
+xml/Fruit.xml
+json/Fruits.json
