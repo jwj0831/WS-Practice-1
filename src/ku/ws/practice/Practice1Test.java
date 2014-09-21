@@ -41,8 +41,8 @@ public class Practice1Test {
 		
 		// JSON Test
 		System.out.println("Jackson JSON Test");
-		JSONParserPractice.parseJSONWithTree(args[2]);
-		JSONParserPractice.parseJSONWithListMapping(args[3]);
+		JSONParserPractice.parseJSONWithListMapping(args[2]);
+		JSONParserPractice.parseJSONWithTree(args[3]);
 		JSONParserPractice.createJSONFile(args[4]);
 		System.out.println("Jackson JSON Test End\n\n");
 		

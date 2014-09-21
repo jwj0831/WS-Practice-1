@@ -7,6 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
 
 import ku.ws.pojo.Employee;
 import ku.ws.pojo.FruitBasket;
@@ -66,13 +67,13 @@ public class JDOMParserPractice {
 		Element root = new Element("fruits");
 		Document document = new Document(root);
 		FruitBasket fruitBasket = new FruitBasket();
-		for(String fruitName : fruitBasket.getFruits().keySet() ) {
+		for(Map<String, String> fruitItem : fruitBasket.getFruits() ) {
 			Element fruit = new Element("fruit");
 			fruit.setAttribute("origin", "Korea");
 //			fruit.addContent("\n\t\t");
-			fruit.addContent(new Element("name").setText(fruitName)); 
+			fruit.addContent(new Element("name").setText(fruitItem.get("name"))); 
 //			fruit.addContent("\n\t\t");
-			fruit.addContent(new Element("price").setText( Integer.toString(fruitBasket.getFruits().get(fruitName))));
+			fruit.addContent(new Element("price").setText(fruitItem.get("price")));
 //			fruit.addContent("\n\t");
 			
 //			root.addContent("\n\t");
