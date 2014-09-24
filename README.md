@@ -18,7 +18,9 @@
 * 인코딩 설정
  * Eclipse.ini 수정
  * -Dfile.encoding=utf-8
+ * (Heap 사이즈 조정)
 * Java Project 생성
+* 퍼스펙티브, 프로젝트 Properties(JDK, Heap Status)
 * (생략) 기본적인 단축키
  * Content Assist ^ + Space
  * Delete Line ^ + D
@@ -64,9 +66,15 @@
  * public static void parseXML(String filePath) 메서드 구현 
 
 ### JSON Handling
+#### JSON 기본 개념
+* http://json.org/json-ko.html
+* http://ko.wikipedia.org/wiki/JSON
+
+#### Jackson JSON
+* Google Image Search
+ * jackson json performance comparison
 * 의존 라이브러리 삽입 
  * https://github.com/FasterXML/jackson-core 
- * 참고
 * http://arisu1000.tistory.com/27710
 * http://stove99.tistory.com/12 
 * 매개변수 추가 ./json/Employee.json ./json/Employee2.json ./json/Fruits.json
