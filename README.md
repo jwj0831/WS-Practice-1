@@ -38,6 +38,7 @@
 * pom.xml
 * 의존라이브러리 삽입
  * http://mvnrepository.com/
+ * http://mvnrepository.com/artifact/org.jdom/jdom2/2.0.5
 * Maven Clean 할 경우
  * eclipse:clean eclipse:eclipse
 
