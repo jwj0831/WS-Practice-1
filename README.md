@@ -22,10 +22,10 @@
 * Java Project 생성
 * 퍼스펙티브, 프로젝트 Properties(JDK, Heap Status)
 * (생략) 기본적인 단축키
- * Content Assist ^ + Space
- * Delete Line ^ + D
- * Move Line @ + 화살표
- * Indent ^ + I
+ * Content Assist Ctrl + Space
+ * Delete Line Ctrl + D
+ * Move Line Alt + 화살표
+ * Indent Ctrl + I
  * Git으로 소스 땡겨오기
 * 실행 할 때 Argument 넣는 법
 
