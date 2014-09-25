@@ -1,6 +1,12 @@
 # 2014년 가을학기 Web Service 실습 1
 ---
+
+# 실습조교: 조우진
+# 메일주소: jwj0831@gmail.com
+
+---
 ## 들어가기 전에
+
 * 다 할것은 아님
 * http://bit.ly/ws-practice-1
 
