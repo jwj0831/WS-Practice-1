@@ -70,14 +70,18 @@
 #### JSON 기본 개념
 * http://json.org/json-ko.html
 * http://ko.wikipedia.org/wiki/JSON
+* JSON 이쁘게보기 
+ * http://chris.photobooks.com/json/
+ * http://www.jsoneditoronline.org/
 
 #### Jackson JSON
 * Google Image Search
  * jackson json performance comparison
+ * http://rick-hightower.blogspot.kr/2014/04/new-json-serialization-benchmark.html
 * 의존 라이브러리 삽입 
  * https://github.com/FasterXML/jackson-core 
-* http://arisu1000.tistory.com/27710
-* http://stove99.tistory.com/12 
+* 참고: http://arisu1000.tistory.com/27710
+* 참고: http://stove99.tistory.com/12 
 * 매개변수 추가 ./json/Employee.json ./json/Employee2.json ./json/Fruits.json
 * ArrayList로 파싱
 * Tree로 파싱
