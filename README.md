@@ -14,7 +14,6 @@
 * 개발환경 & 도구
 * XML 파싱
 * JSON 파싱
-* HTTP 라이브러리 활용
 
 
 ### 이클립스 기본 활용
@@ -63,7 +62,7 @@
 
 #### JDOM2
 * 실행 매개변수
- * ./xml/Employee.xml ./xml/Fruit.xml
+ * ./xml/Employee.xml ./xml/Fruit.xml ./json/Employee.json ./json/Employee2.json ./json/Fruits.json
 * XML 파싱
 * XML 파일 생성
 * 직접 실습해보기 1
@@ -96,20 +95,6 @@
  * Jackson JSON 의존 라이브러리 설정
  * Fruits.json 파일 옮기기
  * public static void parseJSON(String filePath) 메서드 구현 
-
-### HTTP 라이브러리
-* 의존 라이브러리 삽입
- * http://mvnrepository.com/artifact/org.glassfish.jersey.core
-* https://jersey.java.net/documentation/latest/client.html
-* TEST http://developer.naver.com/wiki/pages/News
-* 간단한 방법
-* 복잡하지만 유연한 방법
-* XML파싱과 같이 실행해보자
-* 직접 실습해 보기 3
- * http://www.w3schools.com/xml/simple.xml
- * http://www.w3schools.com/xml/plant_catalog.xml
- * public static void getHTTP(String domain, String path) 메서드 구현
- * xml 파싱과 연계실습까지! 
 
 
 

@@ -8,7 +8,6 @@ import javax.xml.stream.XMLStreamException;
 import org.xml.sax.SAXException;
 
 import ku.ws.xml.*;
-import ku.ws.http.JerseyHTTPClientPractice;
 import ku.ws.json.*;
 
 public class Practice1Test {
@@ -45,12 +44,5 @@ public class Practice1Test {
 		JSONParserPractice.parseJSONWithTree(args[3]);
 		JSONParserPractice.createJSONFile(args[4]);
 		System.out.println("Jackson JSON Test End\n\n");
-		
-		// Jersey HTTP Client Test
-		System.out.println("Jersey HTTP Client Test");
-		JerseyHTTPClientPractice.getSimpleHTTP();
-		String xmlStr = JerseyHTTPClientPractice.getFluentHTTP();
-		JDOMParserPractice.parseXMLWithString(xmlStr);
-		System.out.println("Jersey HTTP Client Test End\n\n");
 	}
 }
